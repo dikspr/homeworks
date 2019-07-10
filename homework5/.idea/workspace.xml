@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80f76180-ba9b-4713-b963-88d68ae3ab24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/homework5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod1.py" afterDir="false" />
-    </list>
+    <list default="true" id="80f76180-ba9b-4713-b963-88d68ae3ab24" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +40,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="237" />
-    <option name="y" value="110" />
+    <option name="x" value="256" />
+    <option name="y" value="150" />
     <option name="width" value="1152" />
     <option name="height" value="865" />
   </component>
@@ -130,7 +124,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="237" y="110" width="1152" height="865" extended-state="0" />
+    <frame x="256" y="150" width="1152" height="865" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
