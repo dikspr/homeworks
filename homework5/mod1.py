@@ -12,3 +12,11 @@ def  create_dir() :
         dir_name=f'dir_{i}'
         os.mkdir(dir_name)
         i += 1
+
+def  del_dir() :
+
+    i = 1
+    while i <= 9:
+        dir_name=f'dir_{i}'
+        os.rmdir(dir_name)
+        i += 1
