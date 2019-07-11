@@ -5,3 +5,12 @@
 # Примечание: Список для проверки введите вручную. Или возьмите этот: [1, 2, 3, 4]
 
 
+import random
+
+def rand_el(list):
+
+    if len(list) == 0:
+        func = None
+    else:
+        func = random.choice(list)
+    return func
