@@ -6,6 +6,7 @@
 
 import sys
 from modul1 import create_file, create_folder, get_list, delete_file, copy_file, save_info
+from game import game
 
 save_info('Старт')
 
@@ -67,6 +68,10 @@ else:
             else:
                 copy_file(name, new_name)
                 save_info(f'Скопирована папка или файл {name} с новым именем {new_name}')
+
+# Обработка команды game
+    elif command == 'game':
+        game()
 
 # Обработка команды help
     elif command == 'help':
