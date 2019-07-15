@@ -12,7 +12,7 @@ def create_file(name, text=None):
 
 
 # Создание директории
-def create_dir(name):
+def create_folder(name):
     try:
         os.mkdir(name)
     except FileExistsError:
