@@ -42,8 +42,12 @@ def copy_file(name, new_name):
             shutil.copytree(name, new_name)
         except FileExistsError:
             print('Такая папка уже есть')
+    elif os.path.exists(name) == False:
+        print('Исходный файл отсутствует')
     else:
         shutil.copy(name, new_name)
+
+
 # запись лога
 def save_info(message):
     current_time = datetime.datetime.now()
@@ -52,8 +56,14 @@ def save_info(message):
         f.write(result + '\n')
 
 
+# Процедура смены текущей рабочей директории
+def change_folder():
+    path = input('Введите новую рабочую директорию (Enter если хотите оставить без изменения)')
+    if path == '':
+        path = os.getcwd()
+    os.chdir(r'{}'.format(path))
+
+
 if __name__ == '__main__':
-    create_file('text.dat')
-    create_file('text.dat', 'some text')
-    create_dir('new_f')
-    get_list(True)
+    change_folder('c:\Dz')
+    print(os.getcwd())
